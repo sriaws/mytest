@@ -1,0 +1,6 @@
+%script(id="text.show" type="text/ng-template")
+  %p.ped-list_item_text
+    {{ ped.content }}
+%script(id="color_text.show" type="text/ng-template")
+  %p.ped-list_item_text(ng-style="{color: ped.color}")
+    {{ ped.text }}
